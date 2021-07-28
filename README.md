@@ -1,2 +1,4 @@
 # StudySqlServer
-SqlServer 학습 리포지토리
+## SSMS를 사용한 데이터 베이스 학습
+
+
