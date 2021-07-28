@@ -70,16 +70,29 @@ CREATE TABLE user_tbl(
     mobile1		char(3), --휴대폰 국번(010~019)
     mobile2		char(8), --010제외 나머지자리
     height	smallint, --키
-    mDate	date --회원가입일
 );
 
-ALTER TABLE user_tbl ADD mobile1 NOT NULL;
+ALTER TABLE user_tbl ADD COLUMN mDate date;
 
 DROP TABLE user_tbl;
-
 ```
 - DML(Data Manipulation Language) -  데이터 조작 언어, 실질적으로 저장된 데이터에 처리할 때 사용
+```
+SELECT * from testTBL1;
+
+INSERT INTO testTBL1 values(1, '홍길동', 25);
+
+UPDATE testTBL1	
+   SET userName = '성수경', 
+       age = 45
+ WHERE id=6;
+
+DELETE from testTBL1 
+ WHERE id = 11;
+```
 - DCL(Data Control Language) -  데이터 제어 언어
+-- COMMIT : 
+-- ROLLBACK :
 - TCL(Transaction Control Language) -  트랜잭션 제어 언어
 ![image](https://user-images.githubusercontent.com/77951868/127281365-959e022a-b2c2-41e2-9adb-6e28b1272371.png)<br/>
 
