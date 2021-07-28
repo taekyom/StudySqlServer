@@ -46,12 +46,12 @@ SSMS를 사용한 데이터베이스 학습 리포지토리
 
 #### 💊 RDMBS의 종류<br/>
 어떤 RDBMS를 쓰는지에 따라 SQL 문법이 조금씩 달라질 수 있다. 주로 쓰이는 RDBMS의 종류는 다음과 같다.<br/>
-- Oracle DB - 가장 오래되었고 높은 신뢰도와 안정성을 가지고 있다. 대규모의 애플리케이션, 은행 업계에서 쓰인다.
-- MySQL - 오픈 소스로 가장 널리 쓰인다. 웹 개발, PHP를 이용한 개발에 흔히 쓰인다.
-- Maria DB - MySQL 5.5를 기반으로 만들어져 사용법이 거의 유사하고 호환성도 뛰어나다.
-- PostgreSQL - 버클리 대학의 프로젝트로 만들어진 오픈 소스 ORDBMS(ORDBMS: 객체-관계형 데이터베이스 관리 시스템)이다. SQL의 확장성과 표준을 준수하고, 풍부한 기능을 지원한다.
-- SQL Server - 마이크로소프트가 개발한 RDBMS로 윈도우 시스템 환경을 지원한다.
-- SQLite - DB를 서버가 아닌 파일로 저장하는 DBMS이다. 기기에 가벼운 DB를 저장하는 목적으로 설계되었으며, 대표적으로 안드로이드, iOS, mac OS에서 사용된다.
+- **Oracle DB** - 가장 오래되었고 높은 신뢰도와 안정성을 가지고 있다. 대규모의 애플리케이션, 은행 업계에서 쓰인다.
+- **MySQL** - 오픈 소스로 가장 널리 쓰인다. 웹 개발, PHP를 이용한 개발에 흔히 쓰인다.
+- **Maria DB** - MySQL 5.5를 기반으로 만들어져 사용법이 거의 유사하고 호환성도 뛰어나다.
+- **PostgreSQL** - 버클리 대학의 프로젝트로 만들어진 오픈 소스 ORDBMS(ORDBMS: 객체-관계형 데이터베이스 관리 시스템)이다. SQL의 확장성과 표준을 준수하고, 풍부한 기능을 지원한다.
+- **SQL Server** - 마이크로소프트가 개발한 RDBMS로 윈도우 시스템 환경을 지원한다.
+- **SQLite** - DB를 서버가 아닌 파일로 저장하는 DBMS이다. 기기에 가벼운 DB를 저장하는 목적으로 설계되었으며, 대표적으로 안드로이드, iOS, mac OS에서 사용된다.
 
 --------------------------------------------
 
@@ -60,7 +60,7 @@ SSMS를 사용한 데이터베이스 학습 리포지토리
 RDBMS에 저장된 데이터와 통신하기 위해 필요한 프로그래밍 언어<br/>
 
 #### 💊 SQL 명령어<br/>
-- DDL(Data Definition Language) -  데이터 정의 언어 
+- **DDL(Data Definition Language)** -  데이터 정의 언어 
 ```sql
 CREATE TABLE user_tbl(
     userID	char(8) not null primary key, --사용자 아이디, 기본키
@@ -76,7 +76,7 @@ ALTER TABLE user_tbl ADD COLUMN mDate date;
 
 DROP TABLE user_tbl;
 ```
-- DML(Data Manipulation Language) -  데이터 조작 언어, 실질적으로 저장된 데이터에 처리할 때 사용
+- **DML(Data Manipulation Language)** -  데이터 조작 언어, 실질적으로 저장된 데이터에 처리할 때 사용
 ```
 SELECT * from testTBL1;
 
@@ -90,10 +90,10 @@ UPDATE testTBL1
 DELETE from testTBL1 
  WHERE id = 11;
 ```
-- DCL(Data Control Language) -  데이터 제어 언어
--- COMMIT : 
--- ROLLBACK :
-- TCL(Transaction Control Language) -  트랜잭션 제어 언어
+- **DCL(Data Control Language)** -  데이터 제어 언어
+  COMMIT : 
+  ROLLBACK :
+- **TCL(Transaction Control Language)** -  트랜잭션 제어 언어
 ![image](https://user-images.githubusercontent.com/77951868/127281365-959e022a-b2c2-41e2-9adb-6e28b1272371.png)<br/>
 
 #### 💊 데이터 타입<br/>
