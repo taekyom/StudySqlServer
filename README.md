@@ -32,7 +32,7 @@ SSMS를 사용한 데이터베이스 학습 리포지토리
 
 --------------------------------------------
 
-## RDMBS(Relational Database Management System)
+## RDMBS(Relational Database Management System)<br/>
 #### 💊 RDMBS(Relational Database Management System)란?<br/>
 관계형 데이터베이스를 생성, 갱신, 관리하기 위한 시스템<br/>
 레코드 단위로 데이터 읽기/쓰기가 발생<br/>
@@ -52,3 +52,15 @@ SSMS를 사용한 데이터베이스 학습 리포지토리
 - PostgreSQL - 버클리 대학의 프로젝트로 만들어진 오픈 소스 ORDBMS이다. (ORDBMS: 객체-관계형 데이터베이스 관리 시스템) SQL의 확장성과 표준을 준수하고, 풍부한 기능을 지원한다.
 - SQL Server - 마이크로소프트가 개발한 RDBMS이기 때문에 윈도우 시스템 환경을 지원한다.
 - SQLite - DB를 서버가 아닌 파일로 저장하는 DBMS이다. 기기에 가벼운 DB를 저장하는 목적으로 설계되었으며, 대표적으로 안드로이드, iOS, mac OS에서 사용된다.
+
+--------------------------------------------
+
+## SQL (Structured Query Language)<br/>
+#### 💊 SQL (Structured Query Language)란?<br/>
+RDBMS에 저장된 데이터와 통신하기 위해 필요한 프로그래밍 언어<br/>
+
+#### 💊 SQL 명령어<br/>
+- DDL - 데이터베이스 스키마와 설명을 처리하는 정의하는 언어, 생성/변경/삭제 : 
+- DML - 데이터 검색, 삽입, 변경, 삭제를 수행하여 조작하는 언어이다. 실질적으로 저장된 데이터에 처리할 때 사용한다.
+- DCL - 데이터에 접근할 수 있는 권한을 관리하는 언어이다.
+- TCL - 트랜잭션을 다루는 언어이다.
