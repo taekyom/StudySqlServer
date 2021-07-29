@@ -1,7 +1,10 @@
 # StudySqlServer
 SSMS를 사용한 데이터베이스 학습 리포지토리
+<br/>
 
 --------------------------------------------
+
+<br/>
 
 ## DBMS(DataBase Management System)
 #### 💊 데이터베이스란?<br/>
@@ -15,8 +18,11 @@ SSMS를 사용한 데이터베이스 학습 리포지토리
 - 대량의 데이터를 다루기 어렵다 (txt, xls 등)
 - 읽기/쓰기를 자동화하려면 프로그래밍 기술이 필요하다
 - 만일의 사고에 대응하기 어렵다 (보안, 백업)
+<br/>
 
 --------------------------------------------
+
+<br/>
 
 ## 관계형 데이터베이스
 #### 💊 RDB(Relational Database)란?<br/>
@@ -29,8 +35,11 @@ SSMS를 사용한 데이터베이스 학습 리포지토리
 - 테이블의 행은 레코드(record)라고도 부르며, 데이터 한 건에 해당한다
 - 테이블의 열에 해당하는 컬럼은 각기 구분하기 쉽게 이름을 붙여 분류한다(ex. name, age, major 등) 
 - 각 칼럼은 특정한 데이터 타입을 가진다<br/>
+<br/>
 
 --------------------------------------------
+
+<br/>
 
 ## RDMBS(Relational Database Management System)<br/>
 #### 💊 RDMBS(Relational Database Management System)란?<br/>
@@ -52,8 +61,11 @@ SSMS를 사용한 데이터베이스 학습 리포지토리
 - **PostgreSQL** - 버클리 대학의 프로젝트로 만들어진 오픈 소스 ORDBMS(ORDBMS: 객체-관계형 데이터베이스 관리 시스템)이다. SQL의 확장성과 표준을 준수하고, 풍부한 기능을 지원한다.
 - **SQL Server** - 마이크로소프트가 개발한 RDBMS로 윈도우 시스템 환경을 지원한다.
 - **SQLite** - DB를 서버가 아닌 파일로 저장하는 DBMS이다. 기기에 가벼운 DB를 저장하는 목적으로 설계되었으며, 대표적으로 안드로이드, iOS, mac OS에서 사용된다.
+<br/>
 
 --------------------------------------------
+
+<br/>
 
 ## SQL (Structured Query Language)<br/>
 #### 💊 SQL (Structured Query Language)란?<br/>
