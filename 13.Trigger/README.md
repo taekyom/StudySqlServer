@@ -7,7 +7,7 @@
 ```
 create[or replace] trigger 트리거명
 (before/after) (insert/update/delete) 이벤트
-on 테이블명 --이벤트가 발생하는 테이블
+on 테이블명     --이벤트가 발생하는 테이블
 [for each row] --실행될 문장 행에 각각 적용
 [when 조건식]
 begin
