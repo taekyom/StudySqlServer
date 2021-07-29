@@ -91,8 +91,6 @@ DELETE from testTBL1
  WHERE id = 11;
 ```
 - **DCL(Data Control Language)** - 데이터 제어 언어
-  COMMIT : 
-  ROLLBACK :
 - **TCL(Transaction Control Language)** - 트랜잭션 제어 언어
 ![image](https://user-images.githubusercontent.com/77951868/127281365-959e022a-b2c2-41e2-9adb-6e28b1272371.png)<br/>
 
