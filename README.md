@@ -57,7 +57,7 @@ SSMS를 사용한 데이터베이스 학습 리포지토리
 
 ## SQL (Structured Query Language)<br/>
 #### 💊 SQL (Structured Query Language)란?<br/>
-RDBMS에 저장된 데이터와 통신하기 위해 필요한 프로그래밍 언어<br/>
+구조화 질의어, RDBMS에 저장된 데이터와 통신하기 위해 필요한 프로그래밍 언어<br/>
 
 #### 💊 SQL 명령어<br/>
 - **DDL(Data Definition Language)** - 데이터 정의 언어 
